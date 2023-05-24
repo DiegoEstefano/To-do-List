@@ -10,10 +10,10 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url("../assets/o-que-e-paisagem.jpg.jpeg");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -36,6 +36,7 @@ button {
 
 button i {
     font-weight: bold;
+    visibility: inherit;
 }
 
 button:hover {
